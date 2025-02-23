@@ -12,11 +12,9 @@ header,
 section,
 footer {
     max-width: 950px;
-    /* Limits width to half the viewport */
     margin: 0 auto;
-    /* Centers the content */
     text-align: left;
-    /* Aligns text properly */
+    padding: 0 20px; /* Add padding for better spacing on smaller screens */
 }
 
 nav ul {
@@ -36,4 +34,23 @@ a {
 
 a:hover {
     color: #66bb6a;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    header,
+    section,
+    footer {
+        max-width: 100%;
+        padding: 0 10px; /* Adjust padding for smaller screens */
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0; /* Stack navigation items vertically on smaller screens */
+    }
 }
