@@ -5,11 +5,11 @@ body {
     color: #fffcfc;
     background-color: #0f0f0f;
     text-align: center;
-    font-size: 180px;
+    font-size: 16px;
 }
 
 header, section, footer {
-    max-width: 800px; /* Limits width to half the viewport */
+    max-width: 950px; /* Limits width to half the viewport */
     margin: 0 auto; /* Centers the content */
     text-align: left; /* Aligns text properly */
 }
