@@ -8,10 +8,15 @@ body {
     font-size: 16px;
 }
 
-header, section, footer {
-    max-width: 950px; /* Limits width to half the viewport */
-    margin: 0 auto; /* Centers the content */
-    text-align: left; /* Aligns text properly */
+header,
+section,
+footer {
+    max-width: 950px;
+    /* Limits width to half the viewport */
+    margin: 0 auto;
+    /* Centers the content */
+    text-align: left;
+    /* Aligns text properly */
 }
 
 nav ul {
