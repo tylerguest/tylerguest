@@ -2,8 +2,8 @@ body {
     font-family: 'IBM Plex Mono', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #fffcfc;
-    background-color: #0f0f0f;
+    color: #000000;
+    background-color: #ffffff;
     text-align: center;
     font-size: 16px;
 }
@@ -27,13 +27,18 @@ nav ul li {
     display: inline;
 }
 
+p {
+    line-height: .8; /* Control paragraph line spacing */
+    margin: 0.5em 0; /* Reduce margin between paragraphs */
+}
+
 a {
     color: #81c784;
     text-decoration: none;
 }
 
 a:hover {
-    color: #66bb6a;
+    color: #ff0000;
 }
 
 /* Responsive design */
