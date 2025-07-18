@@ -28,7 +28,7 @@ nav ul li {
 }
 
 p {
-    line-height: .8; /* Control paragraph line spacing */
+    line-height: 1; /* Control paragraph line spacing */
     margin: 0.5em 0; /* Reduce margin between paragraphs */
 }
 
