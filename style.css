@@ -15,6 +15,7 @@ footer {
     margin: 0 auto;
     text-align: left;
     padding: 0 20px; 
+}
 
 nav ul {
     list-style: none;
@@ -27,7 +28,7 @@ nav ul li {
 }
 
 p {
-    line-height: 1;
+    line-height: 1.8;
     margin: 0.5em 0;
 }
 
@@ -40,7 +41,6 @@ a:hover {
     color: #ff0000;
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
     body {
         font-size: 14px; 
