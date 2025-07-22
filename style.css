@@ -14,8 +14,7 @@ footer {
     max-width: 950px;
     margin: 0 auto;
     text-align: left;
-    padding: 0 20px; /* Add padding for better spacing on smaller screens */
-}
+    padding: 0 20px; 
 
 nav ul {
     list-style: none;
@@ -28,8 +27,8 @@ nav ul li {
 }
 
 p {
-    line-height: 1; /* Control paragraph line spacing */
-    margin: 0.5em 0; /* Reduce margin between paragraphs */
+    line-height: 1;
+    margin: 0.5em 0;
 }
 
 a {
@@ -44,18 +43,18 @@ a:hover {
 /* Responsive design */
 @media (max-width: 768px) {
     body {
-        font-size: 14px; /* Adjust font size for smaller screens */
+        font-size: 14px; 
     }
 
     header,
     section,
     footer {
         max-width: 100%;
-        padding: 0 10px; /* Adjust padding for smaller screens */
+        padding: 0 10px; 
     }
 
     nav ul li {
         display: block;
-        margin: 10px 0; /* Stack navigation items vertically on smaller screens */
+        margin: 10px 0;
     }
 }
